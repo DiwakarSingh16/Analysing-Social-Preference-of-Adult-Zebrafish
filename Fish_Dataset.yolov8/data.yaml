@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Fish A1', 'Fish A2', 'Fish A3', 'Fish B']
+
+roboflow:
+  workspace: detection-utzod
+  project: fish_motions
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detection-utzod/fish_motions/dataset/1
